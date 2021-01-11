@@ -4,7 +4,7 @@ package com.huadi.dao;
 import com.huadi.pojo.User;
 
 /**
- * 数据库访问类 fafafafabbububububububu
+ * 数据库访问类 
  */
 public class UserDao {
 
