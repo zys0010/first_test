@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.huadi.mapper.UserMapper">
+
+    <!--id对应方法名，入参对应属性名-->
+    <select id="getLoginUser" parameterType="User" resultType="User">
+        select * from t_account where username = #{username} and password = #{password}
+    </select>
+    <insert id="registerUser"  parameterType="User">
+           insert into t_account (username,password) values (#{username},#{password})
+       </insert>
+
+</mapper>

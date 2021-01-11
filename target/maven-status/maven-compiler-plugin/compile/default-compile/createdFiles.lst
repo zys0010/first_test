@@ -1,0 +1,9 @@
+com\huadi\service\impl\UserLoginServiceImpl.class
+com\huadi\impl\UserBizImpl3.class
+com\huadi\pojo\User.class
+com\huadi\dao\UserDao.class
+com\huadi\mapper\UserMapper.class
+com\huadi\service\UserLoginService.class
+com\huadi\impl\UserBizImpl.class
+com\huadi\dbUtils\DBCollection.class
+com\huadi\impl\UserBizImpl2.class
